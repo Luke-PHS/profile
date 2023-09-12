@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Luke's digital bio!</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">A digital bio on Luke E****!</h1>
+        <img
+          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
+          class="illustration"
+          alt="Picture of Luke"
+          title="Click the image!"
+        />
+        <div class="instructions">
+          <h2>Intro</h2>
+          <p>
+            This is the digital biography of Luke E****. 
+            This site is made by Luke and will only include information about me that I allow. 
+            I will be speaking in third person for the whole site except this paragraph. 
+            That's the basics I hope enjoy getting a glimpse on who I am.  
+          </p>
+          <!--  🚧 TODO: ADD BUTTON HERE -->
+
+          
+          
+          
+          
+          <h3>Basic facts about Luke </h3>
+          <p>Luke is a softmore in highschool and lives on the west coast of the U.S. His favorite color is purple 
+            but he likes most of the other colors. He loves Star Wars but is annoyed that people assume he likes 
+            because of his name. He also likes animals but cats more specificly are his favorite.  </p>
+          <!-- Once you've added the button from TODO.md, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+          
+          <h4>What do you share in common with Luke </h4>
+      <p>Do you like Star Wars <input type="checkbox"> </p>
+      <p>Do you like cats <input type="checkbox"> </p>
+      <p>Do you like Marvel and/or DC <input type="checkbox"> </p>
+      <p>Do you like drawing/art      <input type="checkbox"> </p>
+
+      <h5>Important events in Luke's life</h5>   
+      <p>Luke was born in the year of the iphone which was 2007. He lived in an apartment until he was three when 
+       his parnets and him moved in with his grandma because his grandpa had just passed. When he was five he started
+       to go to a small private school. This private school would bring him together whith his best friends. 
+       He stayed in this school all throughout elemenrty and middle school so TK to 8th grade. In 2nd grade he got his
+       cat "Mittens" which is a black and white Norwegin Forest cat. In the summer between 4th and 5th grade his mom
+       had a really big health scare but she got better and is fine now. In 5th grade he got his dog "Roxy" which is
+       a mix of a bunch of dog. One of his best friends moved far-ish away in 5th grade but the others stayed. 
+       He graduated from 8th grade in spring 2022 with his friends. He started highschool in August 2022 and moved 
+       from his grandma's house into another apartment in the same month. He went through all of freshman year and
+       started softmore year in August. That's what's happened so far.  </p>
+          
+       
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <footer class="footer">
+      <div class="links"></div>
+      <a
+        class="btn--remix"
+        target="_top"
+        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
+      >
+        <img
+          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+          alt=""
+        />
+        Remix on Glitch
+      </a>
+    </footer>
+  </body>
+</html>
